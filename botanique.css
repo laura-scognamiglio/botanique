@@ -1,0 +1,309 @@
+            .imagee {
+                width: 65px;
+                height: 65px;
+                padding: 1em;
+            }
+            
+            .titreh1 {
+                text-align: center;
+            }
+            
+            .textpresentation {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            .background-presentation {
+                margin: 0;
+                background-color: aqua;
+            }
+            
+            .footer-link {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                width: 250px;
+                flex-direction: row;
+                padding: 1em;
+            }
+            
+            footer {
+                background: #d9bdb8;
+                align-items: flex-end;
+                bottom: 0;
+                left: 0;
+                right: 0
+            }
+            
+            #fond-accueil {
+                background: url(fond-presentation.jpg);
+            }
+            /* code css au dessus pour presentation*/
+            
+            .box1 {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .les-arbustes {
+                text-align: center;
+                font-size: 1.2rem;
+            }
+            
+            .titre-arbuste {
+                text-align: center;
+            }
+            
+            .image-arbustes1 {
+                width: 250px;
+                height: 250px;
+                float: left;
+            }
+            
+            .image-arbuste2 {
+                width: 250px;
+                height: 250px;
+                float: right;
+            }
+            /* code css au dessus pour arbustes*/
+            
+            @keyframes slidy {
+                0% {
+                    left: 0%;
+                }
+                20% {
+                    left: 0%;
+                }
+                25% {
+                    left: -100%;
+                }
+                45% {
+                    left: -100%;
+                }
+                50% {
+                    left: -200%;
+                }
+                70% {
+                    left: -200%;
+                }
+                75% {
+                    left: -300%;
+                }
+                95% {
+                    left: -300%;
+                }
+                100% {
+                    left: -400%;
+                }
+            }
+            
+            .background-accueil {
+                margin: 0;
+                background: #162830
+            }
+            
+            #slider {
+                overflow: hidden;
+                height: 350px
+            }
+            
+            #slider figure img {
+                width: 20%;
+                float: left;
+            }
+            
+            #slider figure {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                text-align: left;
+                font-size: 0;
+                animation: 15s slidy infinite;
+            }
+            
+            .footer-link :hover {
+                transition: 0.5 ease;
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+            
+            body {
+                background-color: white;
+            }
+            
+            .test {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                margin: 20px auto;
+                width: 250px;
+                height: 250px;
+                background: white;
+                border-radius: 75px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+                letter-spacing: 2px;
+                transition: 1s box-shadow;
+            }
+            
+            .test:hover {
+                box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
+            }
+            
+            .box-img {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1000px;
+                flex-direction: row;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            
+            .box-img :hover {
+                filter: grayscale(0);
+                -webkit-filter: grayscale(0);
+                -moz-filter: grayscale(0);
+                -o-filter: grayscale(0);
+                -ms-filter: grayscale(0);
+            }
+            
+            .picture {
+                padding: 2em;
+                filter: grayscale(1);
+                -webkit-filter: grayscale(1);
+                -moz-filter: grayscale(1);
+                -o-filter: grayscale(1);
+                -ms-filter: grayscale(1);
+            }
+            
+            .h1-accueil {
+                text-align: center;
+                color: white;
+                font-size: 2em;
+            }
+            /* code css au dessus pour accueil*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                list-style: none;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            header {
+                background-color: #d9bdb8;
+            }
+            
+            #naviguation {
+                margin: 0 auto;
+                text-align: right;
+                padding: 2%;
+                width: 70%;
+                height: 90%;
+            }
+            
+            #naviguation li {
+                display: inline;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            
+            #naviguation a {
+                display: inline-block;
+                color: #1E5C48;
+            }
+            
+            #fondfleur {
+                background: url("fondvertetnoir.jpg") no-repeat fixed center;
+            }
+            
+            #fondlegume {
+                background: url("imgfondlegume.jpg") no-repeat fixed center;
+            }
+            
+            #fondplante {
+                background: url("imgfondplante.jpg") no-repeat fixed center;
+            }
+            
+            .txtimg {
+                color: #d9bdb8;
+                text-shadow: 1px 1px 2px black;
+            }
+            
+            .marguerite,
+            .anemone,
+            .freesia,
+            .courge,
+            .poireaux,
+            .patatedouce,
+            .pilea,
+            .sanseveria,
+            .zamioculcas,
+            .laurier,
+            .hortensia,
+            .erable {
+                padding-top: 2%;
+                padding-bottom: 1%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                align-items: center;
+                align-content: flex-end;
+                background-color: #d9bdb873;
+            }
+            
+            .structure {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                place-items: center;
+                align-items: center;
+                justify-content: center;
+                margin: 0% 5% 0% 5%;
+            }
+            
+            .miseenpage-article {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .titrearbustres,
+            .titrefleurs,
+            .titrelegumes,
+            .titreplante {
+                text-align: left;
+                padding: 2% 2% 2% 0%;
+            }
+            
+            .marguerite p,
+            .anemone p,
+            .freesia p,
+            .courge p,
+            .poireaux p,
+            .patatedouce p,
+            .pilea p,
+            .sanseveria p,
+            .zamioculcas p,
+            .erable p,
+            .hortensia p,
+            .laurier p {
+                display: block;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 2%;
+            }
+            
+            section {
+                place-items: center;
+                align-items: center;
+                justify-content: center;
+            }
+            /* code css au dessus laura*/
